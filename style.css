@@ -1,3 +1,27 @@
+.cabecalho{
+    margin-left: 1380px;
+    margin-right: -100px;
+    clear: both;
+    display:inline
+
+}
+
+.git{
+    transition: 0.4s ease all;
+}
+
+.linkedin{
+    transition: 0.4s ease all;
+}
+.git:hover{
+    transition: 0.2s;
+    transform:scale(1.1);
+}
+.linkedin:hover{
+    transition: 0.2s;
+    transform:scale(1.1);
+}
+
 .row{
     transition: 0.4s ease all;
 }
