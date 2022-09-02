@@ -1,23 +1,51 @@
-.cabecalho{
-    margin-left: 1380px;
-    margin-right: -100px;
-    clear: both;
-    display:inline
-
+*{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
 }
 
-.git{
+
+body{
+    
+    font-family: 'Arial', Times, serif;
+    color: black;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.logo{
+    margin-left: -18px;
+    margin-bottom: -4px;
+    margin-top: -22px;
+    display: flex;
+}
+
+header nav a{
+    margin-left: 10px;
+    margin-bottom: -4px;
+    margin-top: -22px;
+}
+
+.materia {
+    
+}
+
+
+.icons{
+    display: flex, inline-block;
+    
     transition: 0.4s ease all;
 }
 
-.linkedin{
+header nav img{
     transition: 0.4s ease all;
 }
-.git:hover{
-    transition: 0.2s;
-    transform:scale(1.1);
-}
-.linkedin:hover{
+
+header nav img:hover{
     transition: 0.2s;
     transform:scale(1.1);
 }
