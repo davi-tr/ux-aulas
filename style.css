@@ -1,0 +1,47 @@
+.row{
+    transition: 0.4s ease all;
+}
+
+.row:hover {
+    background-color: yellow;
+    transition: 0.2s;
+    transform:scale(1.02);
+  }
+
+
+.texto2{
+    color: green;
+    font-size: 20px;
+}
+
+.texto1, .texto3{
+    color: blue;
+    font-size: 20px;
+}
+
+#texto4{
+    text-align: end;
+    background-color: aqua;
+}
+
+.voltar{
+    align-items: center;
+    transition: 0.4s ease all;
+    padding-top: 10px;
+}
+
+.voltar:hover {
+    transition: 0.2s;
+    transform:scale(1.4);
+
+  }
+
+.row2{
+    transition: 0.4s ease all;
+}
+
+.row2:hover {
+    background-color: aqua;
+    transition: 0.2s;
+    transform:scale(1.02);
+  }
