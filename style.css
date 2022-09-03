@@ -12,9 +12,19 @@ body{
 }
 
 header .container{
+    /* background-color: blue; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;
+}
+
+.p1{
+    margin-top: -20px;
+    color: grey;
+    font-size: 2px;
+}
+.borda{
+    background-color: grey;
 }
 
 .logo{
@@ -24,14 +34,24 @@ header .container{
     display: flex;
 }
 
-header nav a{
-    margin-left: 10px;
-    margin-bottom: -4px;
-    margin-top: -22px;
+header nav img{
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: -9px;
+    margin-top: 22px;
 }
 
+
 .materia {
-    
+    margin-top: -20px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.aulas{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
 }
 
 
