@@ -1,0 +1,45 @@
+#titulo{
+    list-style-type:none;
+    list-style-image: none;
+}
+
+li{
+    font-size: 28px;
+}
+ol{
+    padding: auto;;
+    list-style-type: upper-roman;
+
+}
+
+ul:not(#titulo){
+    list-style-image: url(/img/icons8-arrow-30.png);
+}
+
+p{
+    font-size: 28px;
+    
+}
+
+#titulo2{
+    margin-bottom: auto;
+    
+}
+
+p:not(.texto2):not(#titulo2){
+    color: pink;
+    text-decoration: underline;
+}
+
+.voltar{
+    align-items: center;
+    transition: 0.4s ease all;
+    padding-top: 10px;
+}
+
+.voltar:hover {
+    transition: 0.2s;
+    transform:scale(1.4);
+
+}
+
