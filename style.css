@@ -9,6 +9,7 @@ body{
     
     font-family: 'Arial', Times, serif;
     color: black;
+    
 }
 
 header .container{
@@ -122,17 +123,17 @@ header nav img:hover{
 }
 
 .tabelas:hover{
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 150px 0 0 0 #42CC0C;
     color: white;
 }
 
 .css:hover{
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 150px 0 0 0 #F9E422;
     color: white;
 }
 
 .bordas:hover{
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 150px 0 0 0 #F9372C;
     color: white;
 }
 
@@ -147,7 +148,7 @@ header nav img:hover{
 }
 
 .imagens:hover{
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 150px 0 0 0 #EFCE70;
     color: white;
 }
 
