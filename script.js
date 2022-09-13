@@ -1,6 +1,7 @@
-const bn = document.querySelector(btn);
+const button = document.getElementById('btn');
 
-bn.addEventListener("click", cont);
-  function cont(){
-  console.log("WORKED");
+function valor(){
+  console.log("Worked")
 }
+
+button.addEventListener('click', valor);
