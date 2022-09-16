@@ -219,9 +219,10 @@ header nav img:hover{
   }
 
   .posi{
-    position: fixed;
+    display: flex;
+    position: absolute;
     left: 50%;
-    bottom: 85%;
+    bottom: 90%;
     transform: translate(-50%, -50%);
     margin: 0;
   }
@@ -294,3 +295,15 @@ header nav img:hover{
   .a:hover {
     color: var(--link-hover);
   }
+
+  @media (max-width:650px){
+  
+  .posi{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 87%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}
