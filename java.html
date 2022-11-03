@@ -17,7 +17,15 @@
                 x.innerHTML = "Hello!";
             }
         }
+        function botao(){
+                var y = document.querySelector("body");
+                if(y.bgColor==""){
+                    y.setAttribute("bgColor","green");
+                }else{
+                    y.setAttribute("bgColor","");
+                }
+            }
     </script>
-    <button type="button" onclick="mFuncao();">Converter</button>
+    <button type="button" onclick="mFuncao(), botao();">Converter</button>
 </body>
 </html>
