@@ -41,6 +41,7 @@ header .container{
 }
 
 .logo{
+    order: -1;
     margin-left: -18px;
     margin-bottom: -4px;
     margin-top: -22px;
@@ -56,9 +57,13 @@ header nav img{
 
 
 .materia {
-    margin-top: -20px;
-    padding: 50px 0;
-    text-align: center;
+    order: -1;
+    margin: auto;
+    height: fit-content;
+
+}
+.posi{
+    margin-top: 10px;
 }
 
 .aulas{
@@ -66,9 +71,15 @@ header nav img{
     flex-direction: column;
     justify-content:space-between
 }
-
+.testt{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    
+}
 
 .icons{
+    
     display: flex, inline-block;
     
     transition: 0.4s ease all;
@@ -84,12 +95,7 @@ header nav img:hover{
     transform:scale(1.1);
 }
 
-.testt{
-    margin: auto;
-    width: fit-content;
-}
-
-.tabelas, .css, .bordas, .listas{
+.tabelas, .css, .bordas, .listas, .imagens, .java{
     display: flex;
     justify-content: center;
 }
@@ -115,6 +121,22 @@ header nav img:hover{
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
+.java{
+    text-decoration: none;
+    font-size: 36px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.java:hover{
+    box-shadow: inset 430px 0 0 0 yellow;
+    color: black;
+}
+
+
+
 .bordas{
     text-decoration: none;
     font-size: 36px;
@@ -136,17 +158,17 @@ header nav img:hover{
 }
 
 .tabelas:hover{
-    box-shadow: inset 150px 0 0 0 #42CC0C;
+    box-shadow: inset 430px 0 0 0 #42CC0C;
     color: white;
 }
 
 .css:hover{
-    box-shadow: inset 150px 0 0 0 #F9E422;
+    box-shadow: inset 430px 0 0 0 #F9E422;
     color: white;
 }
 
 .bordas:hover{
-    box-shadow: inset 150px 0 0 0 #F9372C;
+    box-shadow: inset 430px 0 0 0 #F9372C;
     color: white;
 }
 
@@ -161,12 +183,12 @@ header nav img:hover{
 }
 
 .imagens:hover{
-    box-shadow: inset 150px 0 0 0 #EFCE70;
+    box-shadow: inset 430px 0 0 0 #EFCE70;
     color: white;
 }
 
 .listas:hover{
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 430px 0 0 0 #54b3d6;
     color: white;
 }
 
@@ -218,14 +240,6 @@ header nav img:hover{
     transform:scale(1.02);
   }
 
-  .posi{
-    display: flex;
-    position: absolute;
-    left: 50%;
-    bottom: 90%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-  }
   
 
   .toggle-switch {
@@ -279,6 +293,7 @@ header nav img:hover{
     background-color: var(--dark);
     box-shadow: none;
   }
+
   
   .a {
     position: relative;
