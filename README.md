@@ -16,5 +16,3 @@
 
  <img align="center" alt="" src="https://raw.githubusercontent.com/davi-tr/ux-aulas/main/img/Captura%20de%20tela%20de%202022-09-06%2021-31-59.png">
  
- teste
-
